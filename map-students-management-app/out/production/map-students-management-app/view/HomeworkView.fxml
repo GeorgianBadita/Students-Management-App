@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ButtonBar?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.HomeworkController">
+   <center>
+      <TableView fx:id="hwTable" prefHeight="152.0" prefWidth="381.0" BorderPane.alignment="CENTER">
+        <columns>
+          <TableColumn fx:id="columnId" prefWidth="75.0" text="Id" />
+          <TableColumn fx:id="columnDesc" prefWidth="75.0" text="Desc" />
+          <TableColumn fx:id="columnRecvW" prefWidth="58.5999755859375" text="RecWeek" />
+          <TableColumn fx:id="columnDeadlineW" prefWidth="82.0" text="DeadlineWeek" />
+          <TableColumn fx:id="columnCurrW" minWidth="0.0" prefWidth="89.0" text="CurrWeek" />
+        </columns>
+         <columnResizePolicy>
+            <TableView fx:constant="CONSTRAINED_RESIZE_POLICY" />
+         </columnResizePolicy>
+      </TableView>
+   </center>
+   <right>
+      <VBox prefHeight="600.0" prefWidth="418.0" BorderPane.alignment="CENTER">
+         <children>
+            <GridPane hgap="10.0" prefHeight="158.0" prefWidth="218.0" vgap="30.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                  <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+              </rowConstraints>
+               <padding>
+                  <Insets left="15.0" right="15.0" top="15.0" />
+               </padding>
+               <children>
+                  <Label fx:id="hwLabel" alignment="BASELINE_RIGHT" contentDisplay="CENTER" text="Homework" textAlignment="RIGHT" translateX="10.0" wrapText="true" GridPane.rowIndex="1" />                  <Label alignment="CENTER" contentDisplay="CENTER" text="Id:" GridPane.rowIndex="2" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="Desc:" GridPane.rowIndex="3" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="DeadlineWeek:" GridPane.rowIndex="5" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="RecvWeek:" GridPane.rowIndex="4" />
+                  <Label alignment="CENTER" contentDisplay="CENTER" text="CurrWeek:" GridPane.rowIndex="6" />
+                  <TextField fx:id="idTxt" GridPane.columnIndex="1" GridPane.rowIndex="2" />
+                  <TextField fx:id="descTxt" GridPane.columnIndex="1" GridPane.rowIndex="3" />
+                  <TextField fx:id="recvWTxt" GridPane.columnIndex="1" GridPane.rowIndex="4" />
+                  <TextField fx:id="deadlineWTxt" GridPane.columnIndex="1" GridPane.rowIndex="5" />
+                  <TextField fx:id="currWTxt" editable="false" GridPane.columnIndex="1" GridPane.rowIndex="6" />
+                  <Label text="Filter: " />
+                  <TextField fx:id="filterTxt" GridPane.columnIndex="1" />
+               </children>
+            </GridPane>
+            <HBox prefHeight="159.0" prefWidth="418.0">
+               <children>
+                  <ButtonBar prefHeight="159.0" prefWidth="401.0">
+                    <buttons>
+                      <Button fx:id="addBtn" mnemonicParsing="false" onAction="#handleAdd" text="Add" />
+                        <Button fx:id="delBtn" mnemonicParsing="false" onAction="#handleDelete" text="Delete" />
+                        <Button fx:id="updateBtn" mnemonicParsing="false" onAction="#handleUpdate" text="Update" />
+                        <Button fx:id="cancelBtn" mnemonicParsing="false" onAction="#handleCancel" text="Cancel" />
+                    </buttons>
+                  </ButtonBar>
+               </children>
+            </HBox>
+            <ButtonBar prefHeight="159.0" prefWidth="236.0">
+              <buttons>
+                <Button fx:id="extendBtn" mnemonicParsing="false" onAction="#handleExtend" text="Extend Homework" />
+              </buttons>
+               <padding>
+                  <Insets bottom="100.0" right="19.0" />
+               </padding>
+            </ButtonBar>
+         </children>
+      </VBox>
+   </right>
+</BorderPane>

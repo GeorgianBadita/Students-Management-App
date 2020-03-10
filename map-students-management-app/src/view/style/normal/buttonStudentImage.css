@@ -1,0 +1,5 @@
+.toggle-button {
+    -fx-graphic: "images/teacherImages/studentBtnImg.png";
+    -fx-background-color: transparent;
+    -fx-padding: 10;
+}

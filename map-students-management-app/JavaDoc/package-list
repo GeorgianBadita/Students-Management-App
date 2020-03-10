@@ -1,0 +1,7 @@
+unnamed package
+domain.entities
+domain.validators
+repository
+service
+tests
+user_interface

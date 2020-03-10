@@ -1,0 +1,1 @@
+packageSearchIndex = [{"l":"domain.entities"},{"l":"domain.validators"},{"l":"repository"},{"l":"service"},{"l":"tests"},{"l":"user_interface"}]

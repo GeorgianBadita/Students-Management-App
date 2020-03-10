@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.MainMenuController">
+   <children>
+      <Label layoutX="89.0" layoutY="372.0" text="Students" textFill="#450ecf">
+         <font>
+            <Font name="Dyuthi" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="340.0" layoutY="372.0" text="Homework" textFill="#450ecf">
+         <font>
+            <Font name="Dyuthi" size="24.0" />
+         </font>
+      </Label>
+      <Label layoutX="626.0" layoutY="372.0" text="Grades" textFill="#450ecf">
+         <font>
+            <Font name="Dyuthi" size="24.0" />
+         </font>
+      </Label>
+       <fx:define>
+           <Image fx:id="btnImage" url="@../images/adminImages/studentBtnImg.png" />
+       </fx:define>
+      <Button layoutX="48.0" layoutY="200.0" mnemonicParsing="false" onAction="#startStudent" prefHeight="30.0" prefWidth="168.0">
+         <graphic>
+            <ImageView fitHeight="150.0" fitWidth="200.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/adminImages/studentBtnImg.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="308.0" layoutY="200.0" mnemonicParsing="false" onAction="#startHomework" prefHeight="160.0" prefWidth="168.0">
+         <graphic>
+            <ImageView fitHeight="127.0" fitWidth="164.0" onMouseClicked="#startHomework" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/adminImages/homeworkBtnImg.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+      <Button layoutX="576.0" layoutY="200.0" mnemonicParsing="false" onAction="#startGrade" prefHeight="160.0" prefWidth="168.0">
+         <graphic>
+            <ImageView fitHeight="93.0" fitWidth="94.0" onMouseClicked="#startGrade" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@../images/adminImages/gradeBtnImg.png" />
+               </image>
+            </ImageView>
+         </graphic>
+      </Button>
+   </children>
+</AnchorPane>

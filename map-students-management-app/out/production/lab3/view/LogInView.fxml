@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.effect.DropShadow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+<?scenebuilder-stylesheet style/anchor_style.css?>
+
+<AnchorPane disable="false" focusTraversable="false" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="674.0" styleClass="anchor" stylesheets="@style/anchor_style.css" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controllers.LogInController">
+  <TextField fx:id="usernameTxt" prefHeight="26.0" prefWidth="281.0" promptText="Username" AnchorPane.leftAnchor="194.0" AnchorPane.rightAnchor="197.0" AnchorPane.topAnchor="224.0" />
+  <PasswordField fx:id="passwdTxt" layoutY="283.0" prefHeight="26.0" prefWidth="281.0" promptText="Password" AnchorPane.leftAnchor="194.0" AnchorPane.rightAnchor="197.0" />
+  <Button fx:id="logInBtn" layoutY="325.0" mnemonicParsing="false" onAction="#logInHandler" prefHeight="26.0" prefWidth="102.0" stylesheets="@style/button_styles/login_btn_style.css" text="Log In" AnchorPane.leftAnchor="285.0" AnchorPane.rightAnchor="285.0" />
+  <ImageView fitHeight="26.0" fitWidth="27.0" layoutX="161.0" layoutY="224.0" pickOnBounds="true" preserveRatio="true">
+    <Image url="@../images/logInImages/userName.png" />
+  </ImageView>
+  <ImageView fitHeight="26.0" fitWidth="27.0" layoutX="161.0" layoutY="283.0" pickOnBounds="true" preserveRatio="true">
+    <Image url="@../images/logInImages/password.png" />
+  </ImageView>
+  <Button fx:id="signUpBtn" layoutX="552.0" layoutY="29.0" mnemonicParsing="false" onAction="#signUpHandler" prefHeight="35.0" prefWidth="94.0" stylesheets="@style/button_styles/login_btn_style.css" text="Sign Up" />
+  <Text fill="WHITE" layoutX="395.0" layoutY="50.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Not a member yet?">
+      <effect>
+         <DropShadow />
+      </effect>
+      <font>
+         <Font name="DejaVu Sans Bold" size="13.0" />
+      </font></Text>
+  <ImageView fitHeight="150.0" fitWidth="200.0" layoutX="262.0" layoutY="55.0" pickOnBounds="true" preserveRatio="true">
+    <Image url="@../images/uni/univLogo.png" />
+  </ImageView>
+   <cursor>
+      <Cursor fx:constant="DEFAULT" />
+   </cursor>
+</AnchorPane>

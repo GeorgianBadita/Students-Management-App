@@ -1,0 +1,65 @@
+Tema: 1
+Nota: 8.734324584542208
+Predata in saptamana: 13
+Deadline: 8
+Feedback: CPrniCqAbzOrpeTtkFPuXacS8yp1Eb
+Tema: 2
+Nota: 1.2050263859408954
+Predata in saptamana: 13
+Deadline: 3
+Feedback: cwtrXbGfP42oUO5knOd
+Tema: 3
+Nota: 1.5800282797881509
+Predata in saptamana: 13
+Deadline: 6
+Feedback: fQiltgDJbU3eLO3CAKjRwTep0Jh8f9x
+Tema: 4
+Nota: 6.824751747605023
+Predata in saptamana: 13
+Deadline: 8
+Feedback: UvI
+Tema: 5
+Nota: 5.197401031641096
+Predata in saptamana: 13
+Deadline: 10
+Feedback: 4y
+Tema: 6
+Nota: 2.8190070384266996
+Predata in saptamana: 13
+Deadline: 9
+Feedback: LFxW1M1fB2GvEc9wvCRp0StymyhkwCRL
+Tema: 7
+Nota: 9.544232764357428
+Predata in saptamana: 13
+Deadline: 12
+Feedback: j8Jy
+Tema: 8
+Nota: 3.647694666328292
+Predata in saptamana: 13
+Deadline: 13
+Feedback: uBvWxbRdh9IWKT75FY8Yo1n8
+Tema: 9
+Nota: 5.751548020258195
+Predata in saptamana: 13
+Deadline: 14
+Feedback: gAy67EwTN
+Tema: 10
+Nota: 2.4100052730733554
+Predata in saptamana: 13
+Deadline: 10
+Feedback: CvYY8tt7cv04IXW6RC
+Tema: 11
+Nota: 3.3948620849915563
+Predata in saptamana: 13
+Deadline: 6
+Feedback: 4V
+Tema: 12
+Nota: 9.255693117487874
+Predata in saptamana: 13
+Deadline: 14
+Feedback: OB6kkJ5QDvYXQNQa
+Tema: 13
+Nota: 4.374981016030043
+Predata in saptamana: 13
+Deadline: 14
+Feedback: FAoORY06EliUL1KvCxaF

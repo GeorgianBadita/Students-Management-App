@@ -1,0 +1,5 @@
+Tema: 1
+Nota: 9.67
+Predata in saptamana: 13
+Deadline: 8
+Feedback: Foarte bine!

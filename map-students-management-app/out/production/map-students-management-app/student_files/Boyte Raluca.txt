@@ -1,0 +1,100 @@
+Tema: 1
+Nota: 1.0
+Predata in saptamana: 13
+Deadline: 8
+Feedback: 48kfzprgmfBnpLZtUw6pquvkyvkWQQ
+Tema: 2
+Nota: 1.0
+Predata in saptamana: 13
+Deadline: 3
+Feedback: l8KyhwyflUe9D4WQsZ4l
+Tema: 3
+Nota: 1.0
+Predata in saptamana: 13
+Deadline: 6
+Feedback: XH1mE8LJHAcsrCXecUzFSdClZlkIiJS6Zi9WNWmsZvx7QVWv
+Tema: 4
+Nota: 1.0
+Predata in saptamana: 13
+Deadline: 8
+Feedback: 6kX6lVK9ziqDqcCnbYap2
+Tema: 5
+Nota: 1.0
+Predata in saptamana: 13
+Deadline: 10
+Feedback: WMoZb68weABLB8TmpCQ9NQQdVHa3iTMIlgYMffRMHmfDg
+Tema: 6
+Nota: 1.0
+Predata in saptamana: 13
+Deadline: 9
+Feedback: 7cMpuh
+Tema: 7
+Nota: -0.6373871192183451
+Predata in saptamana: 13
+Deadline: 12
+Feedback: h5QTq5pIhLTv
+Tema: 1
+Nota: 1.3498862047486788
+Predata in saptamana: 13
+Deadline: 8
+Feedback: gA6IP3h9md6e7h47bxjZtbjdVPoO4XLr
+Tema: 2
+Nota: 7.7748249271301955
+Predata in saptamana: 13
+Deadline: 3
+Feedback: 4mgaLmcsVIGVH
+Tema: 3
+Nota: 6.229592208492214
+Predata in saptamana: 13
+Deadline: 6
+Feedback: NdB0uqtACatL98ctW6td7jquuo4nQTvwVfEtWETa4
+Tema: 4
+Nota: 7.0518536947529595
+Predata in saptamana: 13
+Deadline: 8
+Feedback: ucZ83ae2GHM1L9vqNdiFRJx
+Tema: 5
+Nota: 6.5915530175565396
+Predata in saptamana: 13
+Deadline: 10
+Feedback: oTIF4T0gcf04uMmuza5I0N2dBWROy5vYN3vPDT
+Tema: 6
+Nota: 9.0316533085479
+Predata in saptamana: 13
+Deadline: 9
+Feedback: 4cbaJOBELTfIdh2Tg8PDZheqmFmLRGygpIgeJxYUwO
+Tema: 7
+Nota: 7.29139141120994
+Predata in saptamana: 13
+Deadline: 12
+Feedback: 2lj3EckdU41139fLERcp5sRa
+Tema: 8
+Nota: 6.948391397548561
+Predata in saptamana: 13
+Deadline: 13
+Feedback: 39SEGpqVI8zeSvq6sF6T
+Tema: 9
+Nota: 9.000066420955292
+Predata in saptamana: 13
+Deadline: 14
+Feedback: CnaeJ4U
+Tema: 10
+Nota: 1.207701028554776
+Predata in saptamana: 13
+Deadline: 10
+Feedback: xlp
+Tema: 11
+Nota: 3.8973956192283072
+Predata in saptamana: 13
+Deadline: 6
+Feedback: mBNyaV
+Tema: 12
+Nota: 2.052730072391288
+Predata in saptamana: 13
+Deadline: 14
+Feedback: y12EVIbribGbG0OfjS
+Tema: 13
+Nota: 8.649783662235599
+Predata in saptamana: 13
+Deadline: 14
+Feedback: JtSvRGCby8k9HMONliRN6GSpoK5O
