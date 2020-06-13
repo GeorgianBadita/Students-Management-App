@@ -6,7 +6,7 @@
 
    * Creating various types of accounts (ADMININSTRATOR, STUDENT, PROFESSOR) - each account type having its own rights
    * Grading students and creating assignments for them
-   * Filtering students/homework/grades by different criterias
+   * Filtering students/homework/grades by different criteria
    * Generating reports
    * Possibility to notify students when they receive a grade via email
 <h2> Technologies used </h2>
